@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Model weights
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Training outputs
+outputs/
+checkpoints/
+runs/
+
+# Kaggle
+.kaggle/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
