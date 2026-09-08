@@ -6,7 +6,7 @@ Pixelate adapts **Stable Diffusion XL 1.0** toward anime-style pixel art, with a
 
 This README is both project documentation and a technical guide to the path from pixels → latents → diffusion → U-Net attention → LoRA adaptation → generated pixel art.
 
-> **Repository-verified note:** the current `training.py` uses **LoRA rank 8**, not rank 32. The repository is treated as the implementation source of truth. The current repository also contains empty `inference/inference.py`, `inference/prompts.txt`, `preprocessing/prepare_dataset.py`, `preprocessing/download_dataset.py`, and `postprocessing/pixelate.py` files, so no unsupported inference/postprocessing commands or results are claimed here.
+> **Repository-verified note:** the current `training.py` uses **LoRA rank 8**, not rank 32. The repository is treated as the implementation source of truth.
 
 ## Results
 
