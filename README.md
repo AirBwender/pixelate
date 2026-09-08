@@ -848,7 +848,15 @@ INFERENCE
 PIXEL ART
 ```
 
+<<<<<<< HEAD
 The key idea is not that Pixelate creates a new image generator from scratch. It starts with a pretrained latent diffusion model and learns a **targeted modification of its U-Net attention projections** using a focused anime pixel-art dataset.
+=======
+The key idea is not that Pixelate creates a new image generator from scratch. It starts with a pretrained latent diffusion model and learns a **small, targeted modification of its U-Net attention projections** using a focused anime pixel-art dataset.
+
+---
+
+# References
+>>>>>>> 5868b5f (Add technical README and documentation figures)
 
 ## Project
 
@@ -862,4 +870,33 @@ The key idea is not that Pixelate creates a new image generator from scratch. It
 - **Hugging Face Diffusers — Stable Diffusion XL documentation.**
 - **Hugging Face Diffusers — LoRA training and loading documentation.**
 
+<<<<<<< HEAD
+=======
+## Educational
+
+- Luis Serrano Academy — generative models, VAEs, diffusion, denoising, Stable Diffusion, and transformer fundamentals.
+- Transformer/attention educational material for the intuition behind Q/K/V and scaled dot-product attention.
+
+The external references above are used to explain the underlying concepts; the Pixelate repository remains the authority for Pixelate-specific implementation details.
+
+---
+
+## Reproducibility Checklist
+
+- [x] Repository inspected
+- [x] Project-specific hyperparameters verified against `training.py`
+- [x] Dataset selection logic verified against `select_subset.py`
+- [x] Training and inference separated
+- [x] Frozen and trainable components identified
+- [x] LoRA targets verified
+- [x] Rank discrepancy corrected: **8 in code, not 32**
+- [x] No fabricated results
+- [x] No fabricated benchmark metrics
+- [x] Empty repository components explicitly identified
+- [x] Conceptual diagrams labeled as conceptual where appropriate
+- [x] Training objective connected to the implementation
+
+---
+
+>>>>>>> 5868b5f (Add technical README and documentation figures)
 *Pixelate is currently best understood as a focused SDXL U-Net LoRA fine-tuning experiment whose next major documentation milestone is a completed, reproducible inference path and an evidence-backed results gallery.*
